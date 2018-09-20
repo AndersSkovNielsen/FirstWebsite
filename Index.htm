@@ -1,8 +1,23 @@
+<!-- Below is the document type(?) we're working with: -->
+<!DOCTYPE html>
 <html>
     <head>
         <title>Awesome Website</title>
+        
+        <!-- We could do Internal CSS:-->
+        <!--<style>
+            body {background-color: lightgreen}
+            h1 {color:blue}
+            p {color: red}
+        </style>-->
+
+        <!-- Or do External CSS, which is prefered and trumps Internal CSS settings:-->
         <link rel="stylesheet" href="styles.css">
+        <!-- This way you can change the look of a site with one file!
+        You can write this file in any text editor, it MUST NOT contain HTML code, and must be saved as a .css extension-->
+
     </head>
+    <!-- The meriad of examples below are Inline CSS, which trumps Internal/External CSS settings:-->
     <body>
         <h1 style="color:goldenrod">Goldenrod-Colored Header</h1>
         <p style="font-family:'Courier New', Courier, monospace; color:maroon">Courier-Family Paragraph with Maroon color.</p>
@@ -73,7 +88,7 @@
         <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">Same goes for this example with HSLA values.</h1>
         <h1>Both of the above are like RGB/HSL but with an additional Alpha.<br>At 0.0 it's fully transparent and at 1.0 it's not transparent at all.</h1>
 
-        
+
         
     </body>
 
